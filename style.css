@@ -1,12 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 .red {
-  color: rgb(210, 0, 0);
+  color: #e34444;
 }
-
+.black {
+  color: #000000;
+}
+.btn {
+  background-color: #e34444;
+  color: black;
+  border-radius: 15px;
+  text-decoration: none;
+}
 .font {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "slnt" 0;
+  font-weight: 400;
+}
+
+.article {
+  background-color: #000000;
+}
+.img {
+  background-color: #000000;
+}
+.paragraph {
+  background-color: #000000;
 }
