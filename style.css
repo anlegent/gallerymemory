@@ -10,6 +10,20 @@
   color: black;
   border-radius: 15px;
   text-decoration: none;
+  border: none;
+}
+.round-bb {
+  border-color: #000000;
+  border-radius: 15px;
+}
+.divider-img {
+  background-color: #e34444;
+  width: 140px;
+  height: 2px;
+  border-radius: 50px;
+}
+.title-bg {
+  background-color: #e8e8e8;
 }
 .font {
   font-family: "Inter", sans-serif;
@@ -18,14 +32,4 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
   font-weight: 400;
-}
-
-.article {
-  background-color: #000000;
-}
-.img {
-  background-color: #000000;
-}
-.paragraph {
-  background-color: #000000;
 }
