@@ -1,16 +1,14 @@
-const container = document.getElementById("#container");
+const container = document.querySelector("#container");
+for (let i = 0; i < 8; i++) {
+  const article = document.createElement("article");
+  article.classList.add("articles");
+  container.appendChild(article);
 
-const article = document.createElement("article");
-article.classList.add("article");
-container.appendChild(article);
+  const img = document.createElement("img");
+  img.classList.add("image");
+  article.appendChild(img);
 
-const img = document.createElement("img");
-img.classList.add("image");
-article.appendChild(img);
-
-const para = document.createElement("p");
-para.classList.add("parag");
-img.appendChild(para);
-
-const articleTitle = (document.getElementsByClassName("parag").textContent =
-  "this text is generated from Js");
+  const para = document.createElement("p");
+  para.classList.add("para");
+  img.appendChild(para);
+}

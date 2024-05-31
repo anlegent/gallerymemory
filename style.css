@@ -33,3 +33,9 @@
   font-variation-settings: "slnt" 0;
   font-weight: 400;
 }
+
+.articles {
+  background-color: #e34444;
+  width: 25px;
+  height: 25px;
+}
