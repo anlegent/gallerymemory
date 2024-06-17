@@ -13,6 +13,7 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .red {
@@ -21,25 +22,58 @@
 .black {
   color: #000000;
 }
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.center-text {
+  text-align: center;
+}
+
 .btn {
   background-color: #e34444;
   color: black;
   border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-decoration: none;
   border: none;
+  margin-top: 10px;
 }
-.round-bb {
+
+input {
   border-color: #000000;
   border-radius: 15px;
+  text-align: center;
 }
-.divider-img {
+.divider {
   background-color: #e34444;
-  width: 140px;
-  height: 2px;
+  width: 130px;
+  height: 1px;
   border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.title-bg {
+.white-bg {
   background-color: #e8e8e8;
+}
+form {
+  background-color: #e8e8e8;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 50px;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-margin {
+  margin-bottom: 15px;
 }
 
 ul {
