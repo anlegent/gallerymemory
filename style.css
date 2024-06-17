@@ -19,6 +19,17 @@
 .red {
   color: #e34444;
 }
+
+.red-bgc {
+  background-color: #e34444;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .black {
   color: #000000;
 }
